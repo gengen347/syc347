@@ -1,0 +1,28 @@
+2021-01-21 11:56:38,042 - [test_01register.py-->line:44] - ERROR: 用例注册成功-带注册名成功
+2021-01-21 11:56:38,526 - [test_01register.py-->line:44] - ERROR: 用例成功-不带用户名成功
+2021-01-21 11:56:38,772 - [test_01register.py-->line:44] - ERROR: 用例不输入手机号成功
+2021-01-21 11:56:39,016 - [test_01register.py-->line:44] - ERROR: 用例手机号长度10位成功
+2021-01-21 11:56:39,255 - [test_01register.py-->line:44] - ERROR: 用例手机号长度12位成功
+2021-01-21 11:56:39,502 - [test_01register.py-->line:44] - ERROR: 用例手机号含有非法字符成功
+2021-01-21 11:56:39,807 - [test_01register.py-->line:44] - ERROR: 用例已注册过的手机号成功
+2021-01-21 11:56:40,051 - [test_01register.py-->line:44] - ERROR: 用例密码7位成功
+2021-01-21 11:56:40,304 - [test_01register.py-->line:44] - ERROR: 用例密码17位成功
+2021-01-21 11:56:40,563 - [test_01register.py-->line:44] - ERROR: 用例不输入密码成功
+2021-01-21 11:56:40,804 - [test_01register.py-->line:44] - ERROR: 用例注册名11位成功
+2021-01-21 11:56:41,061 - [test_01register.py-->line:44] - ERROR: 用例类型输入非0，1内容成功
+2021-01-21 11:56:41,382 - [test_01register.py-->line:40] - ERROR: 用例手机号为字符串类型失败
+2021-01-21 11:56:41,382 - [test_01register.py-->line:41] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\HD\Desktop\qianchengdai\testcase\test_01register.py", line 33, in test_01_register
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2021-01-21 11:56:41,555 - [test_02login.py-->line:40] - ERROR: 用例登录成功成功
+2021-01-21 11:56:41,644 - [test_02login.py-->line:40] - ERROR: 用例手机号为空成功
+2021-01-21 11:56:41,730 - [test_02login.py-->line:40] - ERROR: 用例密码为空成功
+2021-01-21 11:56:41,889 - [test_02login.py-->line:40] - ERROR: 用例手机号未注册成功
+2021-01-21 11:56:42,049 - [test_02login.py-->line:40] - ERROR: 用例密码错误成功
+2021-01-21 11:56:42,140 - [test_02login.py-->line:40] - ERROR: 用例手机号格式错误成功
